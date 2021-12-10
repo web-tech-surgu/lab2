@@ -4,4 +4,7 @@
 </label> 
 <input type="submit" name="send" value="Отправить файл">
 </form>
+<?php 
+	print_r($_FILES[‘avatar']);
+?>
 
